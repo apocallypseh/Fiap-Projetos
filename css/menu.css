@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1b8e99;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b8e99;
+    height: 45px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 194px;
+    height: 146px;
+    position: absolute;
+    top: -50px;
+    left: 16px;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+
+.menu-lista {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+
+.menu-lista li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.menu-lista a {
+    text-decoration: none;
+    color: #ffffff ;
+    display: inline-block;
+    position: relative;
+    padding: 8px 16px;
+}
+
+.hover-azul:hover {
+    height: 59px;
+    background-color: #92c9ce;
+    color: #ffffff ;
+    display: flex;
+    align-items: center;
+    transform: translateX(10px);
+    transform: translateY(0px);
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.menu-lista .br-tag {
+    text-align: center;
+}
+
+.drone-principal {
+    width: 100%;
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #660000;
+    height: 45px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.menu-lista2 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-lista2 li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.menu-lista2 a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: 8px 16px;
+}
+
+.hover-branco:hover {
+    height: 59px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.hover-branco:hover a {
+    color: #660000;
+}
